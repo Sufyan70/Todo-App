@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(135, 135, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box{
+    min-height: 500px;
+    width: 700px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+#input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 2px gray;
+    display: block;
+}
+.cstm-btn1{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:rgb(135, 135, 255);
+}
+.cstm-btn2{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:rgb(135, 135, 255);
+}
+.item_cstm{
+    width: 80%;
+    padding: 0px 30px 10px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 2px gray;
+    display: block;
+    margin-top: 20px;
+ }
+.edit_cstm{
+    border: none;
+    color: black;
+    padding: 10px;
+    margin-top: 2%;
+    margin-inline-start: 1%;
+    margin-left: 30%;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(135, 135, 255);
+}
+.dlt_cstm{
+    border: none;
+    color: black;
+    padding: 10px;
+    margin-top: 2%;
+    margin-inline-start: 1%;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(135, 135, 255);
+}
+#mainlist{
+    list-style-type: none;
+}
